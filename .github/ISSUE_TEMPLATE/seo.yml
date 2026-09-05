@@ -1,0 +1,30 @@
+name: SEO / Discoverability
+about: Record a search discovery, indexing or structured-data task
+title: "seo: "
+labels: []
+body:
+  - type: textarea
+    attributes:
+      label: Problem / opportunity
+      description: Describe the discoverability problem using evidence where available.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Evidence / baseline
+      description: Search Console data, indexing result, crawl output, Rich Results result or other evidence.
+  - type: textarea
+    attributes:
+      label: Affected URLs / content
+  - type: textarea
+    attributes:
+      label: Desired outcome
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Proposed work
+  - type: textarea
+    attributes:
+      label: Verification
+      description: How will the change be validated without assuming ranking improvements are guaranteed?

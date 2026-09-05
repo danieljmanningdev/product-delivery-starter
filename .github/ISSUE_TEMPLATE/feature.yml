@@ -1,0 +1,36 @@
+name: Feature
+about: Propose product functionality or an improvement
+title: "feature: "
+labels: []
+body:
+  - type: textarea
+    attributes:
+      label: Problem / opportunity
+      description: Describe the user or business problem before describing the solution.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Users
+      description: Who benefits from this and in what context?
+  - type: textarea
+    attributes:
+      label: Desired outcome
+      description: What should become possible or improve?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Acceptance criteria
+      placeholder: |
+        - [ ] ...
+        - [ ] ...
+  - type: textarea
+    attributes:
+      label: UX / design considerations
+  - type: textarea
+    attributes:
+      label: Technical / security / privacy considerations
+  - type: textarea
+    attributes:
+      label: Out of scope

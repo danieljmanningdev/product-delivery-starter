@@ -1,0 +1,43 @@
+name: Bug
+about: Report reproducible incorrect behaviour
+title: "bug: "
+labels: []
+body:
+  - type: textarea
+    attributes:
+      label: Problem
+      description: What is happening, and what should happen instead?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Go to...
+        2. Perform...
+        3. Observe...
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Expected behaviour
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Environment
+      description: Device, browser, OS, version/commit or other relevant context.
+  - type: dropdown
+    attributes:
+      label: Severity
+      options:
+        - Critical — blocks a critical journey or creates serious risk
+        - High — major functionality is broken
+        - Medium — functionality is impaired but a workaround exists
+        - Low — minor issue
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Evidence
+      description: Screenshots, logs or other useful evidence. Remove sensitive information first.

@@ -1,0 +1,31 @@
+name: Performance
+about: Record a measurable performance problem or improvement
+title: "perf: "
+labels: []
+body:
+  - type: textarea
+    attributes:
+      label: Problem
+      description: What is slow, expensive or unnecessarily large?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Measurement / baseline
+      description: Include relevant Lighthouse, PageSpeed, Web Vitals, network, profiling or server measurements.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: User impact
+  - type: textarea
+    attributes:
+      label: Target
+      description: Define a measurable target where useful.
+  - type: textarea
+    attributes:
+      label: Proposed approach / investigation
+  - type: textarea
+    attributes:
+      label: Verification
+      description: How will the improvement be measured after implementation?

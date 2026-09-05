@@ -1,0 +1,42 @@
+name: Accessibility
+about: Record an accessibility barrier or improvement
+title: "a11y: "
+labels: []
+body:
+  - type: textarea
+    attributes:
+      label: Barrier
+      description: Describe the accessibility problem and the affected task/content.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Who / what is affected
+      description: Include input method, assistive technology or user need where known without guessing.
+  - type: textarea
+    attributes:
+      label: Steps to reproduce
+  - type: textarea
+    attributes:
+      label: Expected accessible behaviour
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Relevant criterion / guidance
+      description: Add WCAG or other references when known; do not guess a criterion solely to fill this field.
+  - type: textarea
+    attributes:
+      label: Evidence
+      description: Manual test results, axe findings, screenshots or other evidence.
+  - type: dropdown
+    attributes:
+      label: Impact
+      options:
+        - Critical
+        - High
+        - Medium
+        - Low
+        - Needs assessment
+    validations:
+      required: true

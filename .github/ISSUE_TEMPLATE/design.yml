@@ -1,0 +1,25 @@
+name: Design task
+about: Record a UI, UX or design-system task
+title: "design: "
+labels: []
+body:
+  - type: textarea
+    attributes:
+      label: Goal
+      description: What needs to be improved or decided, and why?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Related requirements and screens
+  - type: textarea
+    attributes:
+      label: Acceptance criteria
+      placeholder: "Describe what should be true when this task is complete."
+  - type: textarea
+    attributes:
+      label: Accessibility considerations
+  - type: textarea
+    attributes:
+      label: References
+      description: Add relevant design, research or issue references.
